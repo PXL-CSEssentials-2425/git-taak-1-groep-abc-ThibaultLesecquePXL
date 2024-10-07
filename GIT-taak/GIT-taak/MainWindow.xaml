@@ -9,10 +9,12 @@
     <Grid>
         <Label Name="titleLabel" Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="109,85,0,0" VerticalAlignment="Top"/>
         <Image Name="logoImage" HorizontalAlignment="Left" Height="100" Margin="558,66,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
-        <Image Name="redColorImage" HorizontalAlignment="Left" Height="67" Margin="116,150,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="redColorImage_MouseEnter" MouseLeave="redColorImage_MouseLeave"/>
-        <Image Name="yellowColorImage" HorizontalAlignment="Left" Height="67" Margin="300,150,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="yellowColorImage_MouseEnter" MouseLeave="yellowColorImage_MouseLeave"/>
-        <Image Name="greenColorImage" HorizontalAlignment="Left" Height="67" Margin="116,238,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="greenColorImage_MouseEnter" MouseLeave="greenColorImage_MouseLeave"/>
-        <Image Name="blueColorImage" HorizontalAlignment="Left" Height="67" Margin="300,238,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueColorImage_MouseEnter" MouseLeave="blueColorImage_MouseLeave"/>
+        <Image Name="redColorImage" HorizontalAlignment="Left" Height="67" Margin="116,150,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="redColorImage_MouseEnter" MouseLeave="redColorImage_MouseLeave" MouseDown="redColorImage_MouseDown"/>
+        <Image Name="yellowColorImage" HorizontalAlignment="Left" Height="67" Margin="300,150,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="yellowColorImage_MouseEnter" MouseLeave="yellowColorImage_MouseLeave" MouseDown="yellowColorImage_MouseDown"/>
+        <Image Name="greenColorImage" HorizontalAlignment="Left" Height="67" Margin="116,238,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="greenColorImage_MouseEnter" MouseLeave="greenColorImage_MouseLeave" MouseDown="greenColorImage_MouseDown"/>
+        <Image Name="blueColorImage" HorizontalAlignment="Left" Height="67" Margin="300,238,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueColorImage_MouseEnter" MouseLeave="blueColorImage_MouseLeave" MouseDown="blueColorImage_MouseDown"/>
+        <Label Name="colorCodeInfoLabel" Content="Kleurcode: " HorizontalAlignment="Left" Margin="116,330,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="colorCodeInfoTextBox" HorizontalAlignment="Left" Margin="190,334,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
 
     </Grid>
 </Window>

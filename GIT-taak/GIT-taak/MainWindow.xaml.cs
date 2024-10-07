@@ -60,5 +60,25 @@ namespace GIT_taak
         {
             mainWindow.Background = Brushes.LightGray;
         }
+
+        private void redColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCodeInfoTextBox.Text = "#FF0000";
+        }
+
+        private void yellowColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCodeInfoTextBox.Text = "#FFFF00";
+        }
+
+        private void greenColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCodeInfoTextBox.Text = "#008000";
+        }
+
+        private void blueColorImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCodeInfoTextBox.Text = "#0000FF";
+        }
     }
 }
