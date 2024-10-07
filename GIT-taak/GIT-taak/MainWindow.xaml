@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GIT_taak"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="LightGray">
     <Grid>
         <Label Name="titleLabel" Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="109,85,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="558,66,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
 
     </Grid>
 </Window>
