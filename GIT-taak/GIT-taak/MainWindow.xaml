@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GIT_taak"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="LightGray">
+        Title="MainWindow" Height="450" Width="800" Background="LightGray" Name="mainWindow">
     <Grid>
         <Label Name="titleLabel" Content="Kleurenpsychologie" HorizontalAlignment="Left" Margin="109,85,0,0" VerticalAlignment="Top"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="558,66,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image Name="logoImage" HorizontalAlignment="Left" Height="100" Margin="558,66,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image Name="redColorImage" HorizontalAlignment="Left" Height="67" Margin="116,150,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="redColorImage_MouseEnter" MouseLeave="redColorImage_MouseLeave"/>
+        <Image Name="yellowColorImage" HorizontalAlignment="Left" Height="67" Margin="300,150,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="yellowColorImage_MouseEnter" MouseLeave="yellowColorImage_MouseLeave"/>
+        <Image Name="greenColorImage" HorizontalAlignment="Left" Height="67" Margin="116,238,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="greenColorImage_MouseEnter" MouseLeave="greenColorImage_MouseLeave"/>
+        <Image Name="blueColorImage" HorizontalAlignment="Left" Height="67" Margin="300,238,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueColorImage_MouseEnter" MouseLeave="blueColorImage_MouseLeave"/>
 
     </Grid>
 </Window>
