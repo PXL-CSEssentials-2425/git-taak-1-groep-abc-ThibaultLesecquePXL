@@ -15,6 +15,8 @@
         <Image Name="blueColorImage" HorizontalAlignment="Left" Height="67" Margin="300,238,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueColorImage_MouseEnter" MouseLeave="blueColorImage_MouseLeave" MouseDown="blueColorImage_MouseDown"/>
         <Label Name="colorCodeInfoLabel" Content="Kleurcode: " HorizontalAlignment="Left" Margin="116,330,0,0" VerticalAlignment="Top"/>
         <TextBox Name="colorCodeInfoTextBox" HorizontalAlignment="Left" Margin="190,334,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
+        <Label Name="colorInfoLabel" Content="Informatie: " HorizontalAlignment="Left" Margin="116,361,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="colorInfoTextBox" HorizontalAlignment="Left" Margin="190,365,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
 
     </Grid>
 </Window>
